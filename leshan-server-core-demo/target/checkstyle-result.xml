@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/cli/GeneralSection.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/cli/DtlsSection.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/cli/IdentitySection.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/cli/converters/ServerCIDConverter.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/JacksonSecuritySerializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/X509CertificateSerDes.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/JacksonSecurityDeserializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/servlet/SecurityServlet.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/PublicKeySerDes.java">
+</file>
+</checkstyle>

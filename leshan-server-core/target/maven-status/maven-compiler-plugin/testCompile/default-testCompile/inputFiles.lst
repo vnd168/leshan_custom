@@ -1,0 +1,7 @@
+/home/vietpc/test/leshan/leshan-server-core/src/test/java/org/eclipse/leshan/server/SerializationUtil.java
+/home/vietpc/test/leshan/leshan-server-core/src/test/java/org/eclipse/leshan/server/SerializationTests.java
+/home/vietpc/test/leshan/leshan-server-core/src/test/java/org/eclipse/leshan/server/bootstrap/BootstrapHandlerTest.java
+/home/vietpc/test/leshan/leshan-server-core/src/test/java/org/eclipse/leshan/server/queue/PresenceServiceTest.java
+/home/vietpc/test/leshan/leshan-server-core/src/test/java/org/eclipse/leshan/server/registration/RegistrationSortObjectLinksTest.java
+/home/vietpc/test/leshan/leshan-server-core/src/test/java/org/eclipse/leshan/server/registration/RegistrationUpdateTest.java
+/home/vietpc/test/leshan/leshan-server-core/src/test/java/org/eclipse/leshan/server/registration/RegistrationTest.java

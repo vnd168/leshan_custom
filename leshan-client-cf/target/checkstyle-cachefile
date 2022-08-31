@@ -1,0 +1,21 @@
+#Thu Aug 25 08:41:57 ICT 2022
+configuration*?=B73657913817100C2EAD630607A8D37DFAD0C71F
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/bootstrap/DefaultBootstrapConsistencyChecker.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/RootResource.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/TrustAnchorAssertionCertificateVerifier.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/BaseCertificateVerifier.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/LeshanClientBuilder.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/DomainIssuerCertificateVerifier.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/request/LwM2mClientResponseBuilder.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/LeshanClient.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/request/CoapRequestBuilder.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/object/ResourceObserveFilter.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/ObserveCompositeRelationFilter.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/X509Util.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/CaliforniumEndpointsManager.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/object/ObjectResource.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/LwM2mClientCoapResource.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/CaConstraintCertificateVerifier.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/ServiceCertificateConstraintCertificateVerifier.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/bootstrap/BootstrapResource.java=1661153191304
+/home/vietpc/test/leshan/leshan-client-cf/src/main/java/org/eclipse/leshan/client/californium/request/CaliforniumLwM2mRequestSender.java=1661153191304

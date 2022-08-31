@@ -1,0 +1,10 @@
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/cli/LeshanBsServerDemoCLI.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/json/EnumSetBindingModeDeserializer.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/servlet/ServerServlet.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/servlet/EventServlet.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/JSONFileBootstrapStore.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/json/ByteArraySerializer.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/json/EnumSetSerializer.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/servlet/BootstrapServlet.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/LeshanBootstrapServerDemo.java
+/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/json/EnumSetDeserializer.java

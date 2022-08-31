@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eclipse.leshan.integration.tests.SecurityTest" time="46.197" tests="57" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/vietpc/test/leshan/leshan-integration-tests/target/test-classes:/home/vietpc/test/leshan/leshan-integration-tests/target/classes:/home/vietpc/test/leshan/leshan-core/target/leshan-core-2.0.0-SNAPSHOT-tests.jar:/home/vietpc/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/vietpc/.m2/repository/com/upokecenter/cbor/4.5.2/cbor-4.5.2.jar:/home/vietpc/.m2/repository/com/github/peteroupc/numbers/1.8.2/numbers-1.8.2.jar:/home/vietpc/test/leshan/leshan-server-cf/target/leshan-server-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-core-cf/target/leshan-core-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-core/target/leshan-core-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-server-core/target/leshan-server-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/scandium/3.6.0/scandium-3.6.0.jar:/home/vietpc/test/leshan/leshan-server-redis/target/leshan-server-redis-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/redis/clients/jedis/4.2.3/jedis-4.2.3.jar:/home/vietpc/.m2/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/home/vietpc/.m2/repository/org/json/json/20211205/json-20211205.jar:/home/vietpc/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/vietpc/test/leshan/leshan-client-cf/target/leshan-client-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-client-core/target/leshan-client-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/cf-oscore/3.6.0/cf-oscore-3.6.0.jar:/home/vietpc/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/vietpc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0-tests.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-legal/3.6.0/californium-legal-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0-tests.jar:/home/vietpc/.m2/repository/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/vietpc/test/leshan/leshan-integration-tests/target/surefire/surefirebooter12103950334604096663.jar /home/vietpc/test/leshan/leshan-integration-tests/target/surefire 2022-08-25T08-42-09_868-jvmRun1 surefire9427013004014207623tmp surefire_02671836830290220864tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/vietpc/test/leshan/leshan-integration-tests/target/test-classes:/home/vietpc/test/leshan/leshan-integration-tests/target/classes:/home/vietpc/test/leshan/leshan-core/target/leshan-core-2.0.0-SNAPSHOT-tests.jar:/home/vietpc/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/vietpc/.m2/repository/com/upokecenter/cbor/4.5.2/cbor-4.5.2.jar:/home/vietpc/.m2/repository/com/github/peteroupc/numbers/1.8.2/numbers-1.8.2.jar:/home/vietpc/test/leshan/leshan-server-cf/target/leshan-server-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-core-cf/target/leshan-core-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-core/target/leshan-core-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-server-core/target/leshan-server-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/scandium/3.6.0/scandium-3.6.0.jar:/home/vietpc/test/leshan/leshan-server-redis/target/leshan-server-redis-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/redis/clients/jedis/4.2.3/jedis-4.2.3.jar:/home/vietpc/.m2/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/home/vietpc/.m2/repository/org/json/json/20211205/json-20211205.jar:/home/vietpc/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/vietpc/test/leshan/leshan-client-cf/target/leshan-client-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-client-core/target/leshan-client-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/cf-oscore/3.6.0/cf-oscore-3.6.0.jar:/home/vietpc/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/vietpc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0-tests.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-legal/3.6.0/californium-legal-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0-tests.jar:/home/vietpc/.m2/repository/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/vietpc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/vietpc/test/leshan/leshan-integration-tests"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="logback.configurationFile" value="logback-leshan-test.xml"/>
+    <property name="surefire.real.class.path" value="/home/vietpc/test/leshan/leshan-integration-tests/target/surefire/surefirebooter12103950334604096663.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8-post-Ubuntu-0ubuntu120.04"/>
+    <property name="user.name" value="vietpc"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-46-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/vietpc/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2022.2.1"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/home/vietpc/test/leshan/leshan-integration-tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.16+8-post-Ubuntu-0ubuntu120.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="registered_device_with_bad_psk_key_to_server_with_psk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.117"/>
+  <testcase name="registered_device_with_rpk_to_server_with_rpk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.059"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_selfsigned_certificate_usage_ca_selfsigned_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.027"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_server_certificate_usage_ca_server_cert_wo_chain_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.022"/>
+  <testcase name="registered_device_with_psk_and_bad_endpoint_to_server_with_psk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.015"/>
+  <testcase name="registered_device_with_psk_to_server_with_psk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.03"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_selfsigned_certificate_usage_service_selfsigned_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.022"/>
+  <testcase name="registered_device_with_rpk_to_server_with_rpk_then_remove_security_info" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="2.079"/>
+  <testcase name="registered_device_with_untrusted_x509cert_to_server_with_x509cert" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.043"/>
+  <testcase name="registered_device_with_bad_rpk_to_server_with_rpk_" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.036"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_server_certificate_usage_service_server_cert_wo_chain_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.05"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_domain_other_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.025"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_domain" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.081"/>
+  <testcase name="register_update_deregister_reregister_device_with_psk_to_server_with_psk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.76"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_domain_root_ca_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.051"/>
+  <testcase name="registered_device_with_empty_truststore_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_ca_intca_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.053"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_domain_selfsigned_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.052"/>
+  <testcase name="register_update_reregister_device_with_psk_to_server_with_psk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="2.272"/>
+  <testcase name="nonunique_psk_identity" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.007"/>
+  <testcase name="registered_device_with_selfsigned_x509cert_to_server_with_x509cert" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.023"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_taa_domain_root_ca_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.05"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_service_selfsigned_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.023"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_ca_other_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.025"/>
+  <testcase name="dont_sent_request_if_identity_change" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.043"/>
+  <testcase name="registered_device_with_oscore_to_server_with_oscore_then_removed_security_info_then_client_fails_to_update" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.025"/>
+  <testcase name="registered_device_with_rpk_and_bad_endpoint_to_server_with_rpk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.025"/>
+  <testcase name="change_psk_identity_cleanup" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.015"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_taa" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.022"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_selfsigned_certificate_usage_taa_selfsigned_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.032"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_ca_domain_root_ca_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.039"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_ca_selfsigned_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.03"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_ca_intca_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.04"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_rpk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.022"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_taa_intca_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.039"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_taa_other_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.022"/>
+  <testcase name="registered_device_with_rpk_to_server_with_x509cert" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.037"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.034"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_server_certificate_usage_taa_server_cert_wo_chain_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.023"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_then_remove_security_info" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="2.428"/>
+  <testcase name="server_initiates_dtls_handshake" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.049"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_service" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.039"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_taa_selfsigned_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.024"/>
+  <testcase name="registered_device_with_x509cert_and_bad_endpoint_to_server_with_x509cert" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.04"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_selfsigned_certificate_usage_domain_selfsigned_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.065"/>
+  <testcase name="registered_device_with_bad_psk_identity_to_server_with_psk" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.016"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_ca" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.018"/>
+  <testcase name="registered_device_with_psk_identity_to_server_with_psk_then_remove_security_info" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="2.528"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_server_certificate_usage_domain_server_cert_wo_chain_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.038"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_service_domain_root_ca_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.02"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_self_signed_x509cert" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.068"/>
+  <testcase name="server_does_not_initiate_dtls_handshake_with_queue_mode" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.022"/>
+  <testcase name="registered_device_with_oscore_to_server_with_oscore_then_removed_security_info_then_server_fails_to_send_request" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.549"/>
+  <testcase name="registered_device_with_x509cert_and_bad_cn_certificate_to_server_with_x509cert" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.02"/>
+  <testcase name="registered_device_with_oscore_to_server_with_oscore" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="0.02"/>
+  <testcase name="registered_device_with_x509cert_to_server_with_x509cert_rootca_certificate_usage_service_other_server_cert_given" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.024"/>
+  <testcase name="registered_device_with_x509cert_and_bad_private_key_to_server_with_x509cert" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.025"/>
+  <testcase name="server_initiates_dtls_handshake_timeout" classname="org.eclipse.leshan.integration.tests.SecurityTest" time="1.83"/>
+</testsuite>

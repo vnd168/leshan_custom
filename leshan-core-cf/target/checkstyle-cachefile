@@ -1,0 +1,19 @@
+#Thu Aug 25 08:41:17 ICT 2022
+configuration*?=1E79AB5C22BC35A13DCF98B7B808EA0C80713C70
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/ResponseCodeUtil.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/LwM2mCoapResource.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/CoapAsyncRequestObserver.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/oscore/cf/OscoreParameters.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/CoapResponseCallback.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/oscore/cf/InMemoryOscoreContextDB.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/oscore/cf/OscoreStore.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/EndpointContextUtil.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/SyncRequestObserver.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/AbstractRequestObserver.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/ObserveUtil.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/Lwm2mEndpointContextMatcher.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/AsyncRequestObserver.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/oscore/cf/StaticOscoreStore.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/EndpointFactory.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/DefaultEndpointFactory.java=1661153191308
+/home/vietpc/test/leshan/leshan-core-cf/src/main/java/org/eclipse/leshan/core/californium/CoapSyncRequestObserver.java=1661153191308

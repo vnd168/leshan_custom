@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/IdentitySerDes.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/SecurityInfoSerDes.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/RegistrationSerDes.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/ObservationSerDes.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/EndpointContextSerDes.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/SingleInstanceJedisLock.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/JedisLock.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisLock.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisRegistrationStore.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisSecurityStore.java">
+</file>
+</checkstyle>

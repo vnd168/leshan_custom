@@ -1,0 +1,9 @@
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/cli/IdentitySection.java
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/PublicKeySerDes.java
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/JacksonSecurityDeserializer.java
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/cli/GeneralSection.java
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/cli/converters/ServerCIDConverter.java
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/cli/DtlsSection.java
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/JacksonSecuritySerializer.java
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/X509CertificateSerDes.java
+/home/vietpc/test/leshan/leshan-server-core-demo/src/main/java/org/eclipse/leshan/server/core/demo/json/servlet/SecurityServlet.java

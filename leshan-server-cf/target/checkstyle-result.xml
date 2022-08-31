@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/OscoreContextCleaner.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/observation/ObservationServiceImpl.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/RootResource.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/LwM2mPskStore.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/registration/CaliforniumRegistrationStore.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/registration/RegisterResource.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/registration/InMemoryRegistrationStore.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/ConnectionCleaner.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/LeshanServer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/send/SendResource.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/request/LwM2mResponseBuilder.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/request/CoapRequestSender.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/request/CoapRequestBuilder.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/request/RequestSender.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/request/CaliforniumQueueModeRequestSender.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/request/CaliforniumLwM2mRequestSender.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/request/CoapRequestSetter.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/bootstrap/BootstrapOscoreContextCleaner.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/bootstrap/LwM2mBootstrapOscoreStore.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/bootstrap/BootstrapResource.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/bootstrap/LeshanBootstrapServer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/bootstrap/LwM2mBootstrapPskStore.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/bootstrap/CaliforniumLwM2mBootstrapRequestSender.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/bootstrap/OscoreBootstrapListener.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/bootstrap/LeshanBootstrapServerBuilder.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/LeshanServerBuilder.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-cf/src/main/java/org/eclipse/leshan/server/californium/LwM2mOscoreStore.java">
+</file>
+</checkstyle>

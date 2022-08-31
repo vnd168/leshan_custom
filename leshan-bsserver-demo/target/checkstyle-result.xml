@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/LeshanBootstrapServerDemo.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/cli/LeshanBsServerDemoCLI.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/JSONFileBootstrapStore.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/json/EnumSetSerializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/json/ByteArraySerializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/json/EnumSetDeserializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/json/EnumSetBindingModeDeserializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/servlet/BootstrapServlet.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/servlet/ServerServlet.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-bsserver-demo/src/main/java/org/eclipse/leshan/server/bootstrap/demo/servlet/EventServlet.java">
+</file>
+</checkstyle>

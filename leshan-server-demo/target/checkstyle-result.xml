@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/cli/LeshanServerDemoCLI.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/model/ObjectModelSerDes.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/model/FileLister.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/model/ResourceModelSerDes.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/model/DdfDownloader.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/LeshanServerDemo.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/log/CoapMessageTracer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/log/CoapMessage.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/log/CoapMessageListener.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/json/JacksonResponseSerializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/json/JacksonLwM2mNodeDeserializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/json/JacksonSecurityDeserializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/json/JacksonRegistrationSerializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/json/JacksonLwM2mNodeSerializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/json/JacksonLinkSerializer.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/ObjectSpecServlet.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/ClientServlet.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/ServerServlet.java">
+</file>
+<file name="/home/vietpc/test/leshan/leshan-server-demo/src/main/java/org/eclipse/leshan/server/demo/servlet/EventServlet.java">
+</file>
+</checkstyle>
