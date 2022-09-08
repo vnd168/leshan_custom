@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.82" tests="88" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="1.088" tests="88" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/vietpc/test/leshan/leshan-integration-tests/target/test-classes:/home/vietpc/test/leshan/leshan-integration-tests/target/classes:/home/vietpc/test/leshan/leshan-core/target/leshan-core-2.0.0-SNAPSHOT-tests.jar:/home/vietpc/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/vietpc/.m2/repository/com/upokecenter/cbor/4.5.2/cbor-4.5.2.jar:/home/vietpc/.m2/repository/com/github/peteroupc/numbers/1.8.2/numbers-1.8.2.jar:/home/vietpc/test/leshan/leshan-server-cf/target/leshan-server-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-core-cf/target/leshan-core-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-core/target/leshan-core-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-server-core/target/leshan-server-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/scandium/3.6.0/scandium-3.6.0.jar:/home/vietpc/test/leshan/leshan-server-redis/target/leshan-server-redis-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/redis/clients/jedis/4.2.3/jedis-4.2.3.jar:/home/vietpc/.m2/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/home/vietpc/.m2/repository/org/json/json/20211205/json-20211205.jar:/home/vietpc/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/vietpc/test/leshan/leshan-client-cf/target/leshan-client-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-client-core/target/leshan-client-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/cf-oscore/3.6.0/cf-oscore-3.6.0.jar:/home/vietpc/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/vietpc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0-tests.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-legal/3.6.0/californium-legal-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0-tests.jar:/home/vietpc/.m2/repository/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar:"/>
+    <property name="java.class.path" value="/home/vietpc/test/leshan_custom/leshan-integration-tests/target/test-classes:/home/vietpc/test/leshan_custom/leshan-integration-tests/target/classes:/home/vietpc/test/leshan_custom/leshan-core/target/leshan-core-2.0.0-SNAPSHOT-tests.jar:/home/vietpc/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/vietpc/.m2/repository/com/upokecenter/cbor/4.5.2/cbor-4.5.2.jar:/home/vietpc/.m2/repository/com/github/peteroupc/numbers/1.8.2/numbers-1.8.2.jar:/home/vietpc/test/leshan_custom/leshan-server-cf/target/leshan-server-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan_custom/leshan-core-cf/target/leshan-core-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan_custom/leshan-core/target/leshan-core-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan_custom/leshan-server-core/target/leshan-server-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/scandium/3.6.0/scandium-3.6.0.jar:/home/vietpc/test/leshan_custom/leshan-server-redis/target/leshan-server-redis-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/redis/clients/jedis/4.2.3/jedis-4.2.3.jar:/home/vietpc/.m2/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/home/vietpc/.m2/repository/org/json/json/20211205/json-20211205.jar:/home/vietpc/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/vietpc/test/leshan_custom/leshan-client-cf/target/leshan-client-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan_custom/leshan-client-core/target/leshan-client-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/cf-oscore/3.6.0/cf-oscore-3.6.0.jar:/home/vietpc/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/vietpc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0-tests.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-legal/3.6.0/californium-legal-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0-tests.jar:/home/vietpc/.m2/repository/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/vietpc/test/leshan/leshan-integration-tests/target/surefire/surefirebooter12103950334604096663.jar /home/vietpc/test/leshan/leshan-integration-tests/target/surefire 2022-08-25T08-42-09_868-jvmRun1 surefire9427013004014207623tmp surefire_02671836830290220864tmp"/>
+    <property name="sun.java.command" value="/home/vietpc/test/leshan_custom/leshan-integration-tests/target/surefire/surefirebooter15285682435427957509.jar /home/vietpc/test/leshan_custom/leshan-integration-tests/target/surefire 2022-09-08T10-09-33_456-jvmRun1 surefire233180715206019445tmp surefire_015625978086886960805tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/vietpc/test/leshan/leshan-integration-tests/target/test-classes:/home/vietpc/test/leshan/leshan-integration-tests/target/classes:/home/vietpc/test/leshan/leshan-core/target/leshan-core-2.0.0-SNAPSHOT-tests.jar:/home/vietpc/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/vietpc/.m2/repository/com/upokecenter/cbor/4.5.2/cbor-4.5.2.jar:/home/vietpc/.m2/repository/com/github/peteroupc/numbers/1.8.2/numbers-1.8.2.jar:/home/vietpc/test/leshan/leshan-server-cf/target/leshan-server-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-core-cf/target/leshan-core-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-core/target/leshan-core-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-server-core/target/leshan-server-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/scandium/3.6.0/scandium-3.6.0.jar:/home/vietpc/test/leshan/leshan-server-redis/target/leshan-server-redis-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/redis/clients/jedis/4.2.3/jedis-4.2.3.jar:/home/vietpc/.m2/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/home/vietpc/.m2/repository/org/json/json/20211205/json-20211205.jar:/home/vietpc/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/vietpc/test/leshan/leshan-client-cf/target/leshan-client-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan/leshan-client-core/target/leshan-client-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/cf-oscore/3.6.0/cf-oscore-3.6.0.jar:/home/vietpc/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/vietpc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0-tests.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-legal/3.6.0/californium-legal-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0-tests.jar:/home/vietpc/.m2/repository/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar:"/>
+    <property name="surefire.test.class.path" value="/home/vietpc/test/leshan_custom/leshan-integration-tests/target/test-classes:/home/vietpc/test/leshan_custom/leshan-integration-tests/target/classes:/home/vietpc/test/leshan_custom/leshan-core/target/leshan-core-2.0.0-SNAPSHOT-tests.jar:/home/vietpc/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/home/vietpc/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:/home/vietpc/.m2/repository/com/upokecenter/cbor/4.5.2/cbor-4.5.2.jar:/home/vietpc/.m2/repository/com/github/peteroupc/numbers/1.8.2/numbers-1.8.2.jar:/home/vietpc/test/leshan_custom/leshan-server-cf/target/leshan-server-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan_custom/leshan-core-cf/target/leshan-core-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan_custom/leshan-core/target/leshan-core-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan_custom/leshan-server-core/target/leshan-server-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/scandium/3.6.0/scandium-3.6.0.jar:/home/vietpc/test/leshan_custom/leshan-server-redis/target/leshan-server-redis-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/redis/clients/jedis/4.2.3/jedis-4.2.3.jar:/home/vietpc/.m2/repository/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar:/home/vietpc/.m2/repository/org/json/json/20211205/json-20211205.jar:/home/vietpc/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/vietpc/test/leshan_custom/leshan-client-cf/target/leshan-client-cf-2.0.0-SNAPSHOT.jar:/home/vietpc/test/leshan_custom/leshan-client-core/target/leshan-client-core-2.0.0-SNAPSHOT.jar:/home/vietpc/.m2/repository/org/eclipse/californium/cf-oscore/3.6.0/cf-oscore-3.6.0.jar:/home/vietpc/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/vietpc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/home/vietpc/.m2/repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-core/3.6.0/californium-core-3.6.0-tests.jar:/home/vietpc/.m2/repository/org/eclipse/californium/californium-legal/3.6.0/californium-legal-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0.jar:/home/vietpc/.m2/repository/org/eclipse/californium/element-connector/3.6.0/element-connector-3.6.0-tests.jar:/home/vietpc/.m2/repository/net/i2p/crypto/eddsa/0.3.0/eddsa-0.3.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/vietpc"/>
     <property name="user.language" value="en"/>
@@ -26,14 +26,14 @@
     <property name="java.version.date" value="2022-07-19"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/vietpc/test/leshan/leshan-integration-tests"/>
+    <property name="basedir" value="/home/vietpc/test/leshan_custom/leshan-integration-tests"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="logback.configurationFile" value="logback-leshan-test.xml"/>
-    <property name="surefire.real.class.path" value="/home/vietpc/test/leshan/leshan-integration-tests/target/surefire/surefirebooter12103950334604096663.jar"/>
+    <property name="surefire.real.class.path" value="/home/vietpc/test/leshan_custom/leshan-integration-tests/target/surefire/surefirebooter15285682435427957509.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16+8-post-Ubuntu-0ubuntu120.04"/>
     <property name="user.name" value="vietpc"/>
@@ -47,7 +47,7 @@
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="idea.version" value="2022.2.1"/>
     <property name="java.version" value="11.0.16"/>
-    <property name="user.dir" value="/home/vietpc/test/leshan/leshan-integration-tests"/>
+    <property name="user.dir" value="/home/vietpc/test/leshan_custom/leshan-integration-tests"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -59,92 +59,92 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="can_write_single_instance_objlnk_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.1"/>
-  <testcase name="can_write_single_instance_objlnk_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.103"/>
-  <testcase name="can_write_single_instance_objlnk_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.071"/>
-  <testcase name="can_write_single_instance_objlnk_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.072"/>
-  <testcase name="can_write_single_instance_objlnk_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.096"/>
-  <testcase name="can_write_single_instance_objlnk_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.088"/>
-  <testcase name="can_write_single_instance_objlnk_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.086"/>
-  <testcase name="can_write_single_instance_objlnk_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.066"/>
-  <testcase name="write_time_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.09"/>
-  <testcase name="write_time_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.106"/>
-  <testcase name="write_time_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.079"/>
-  <testcase name="write_time_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.069"/>
+  <testcase name="can_write_single_instance_objlnk_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.066"/>
+  <testcase name="can_write_single_instance_objlnk_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.079"/>
+  <testcase name="can_write_single_instance_objlnk_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.047"/>
+  <testcase name="can_write_single_instance_objlnk_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.045"/>
+  <testcase name="can_write_single_instance_objlnk_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.039"/>
+  <testcase name="can_write_single_instance_objlnk_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.053"/>
+  <testcase name="can_write_single_instance_objlnk_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.055"/>
+  <testcase name="can_write_single_instance_objlnk_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.039"/>
+  <testcase name="write_time_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.094"/>
+  <testcase name="write_time_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.096"/>
+  <testcase name="write_time_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.104"/>
+  <testcase name="write_time_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.105"/>
+  <testcase name="write_time_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.097"/>
+  <testcase name="write_time_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.118"/>
   <testcase name="write_time_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.09"/>
-  <testcase name="write_time_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.065"/>
-  <testcase name="write_time_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.089"/>
-  <testcase name="write_time_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.084"/>
-  <testcase name="can_write_string_resource_instance[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.094"/>
-  <testcase name="can_write_string_resource_instance[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.097"/>
-  <testcase name="can_write_string_resource_instance[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.085"/>
-  <testcase name="can_write_string_resource_instance[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.093"/>
-  <testcase name="can_write_string_resource_instance[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.098"/>
-  <testcase name="can_write_string_resource_instance[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.088"/>
-  <testcase name="can_write_string_resource_instance[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.096"/>
-  <testcase name="can_write_string_resource_instance[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.084"/>
-  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.059"/>
-  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.07"/>
-  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.078"/>
-  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.077"/>
-  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.046"/>
-  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.054"/>
-  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.044"/>
-  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.062"/>
-  <testcase name="write_float_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.065"/>
-  <testcase name="write_float_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.053"/>
-  <testcase name="write_float_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.093"/>
-  <testcase name="write_float_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.077"/>
-  <testcase name="write_float_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.092"/>
-  <testcase name="write_float_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.053"/>
-  <testcase name="write_float_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.102"/>
-  <testcase name="write_float_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.075"/>
-  <testcase name="write_integer_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.067"/>
-  <testcase name="write_integer_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.085"/>
-  <testcase name="write_integer_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.089"/>
-  <testcase name="write_integer_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.084"/>
-  <testcase name="write_integer_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.074"/>
-  <testcase name="write_integer_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.065"/>
-  <testcase name="write_integer_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.074"/>
-  <testcase name="write_integer_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.062"/>
-  <testcase name="write_corelnk_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.06"/>
-  <testcase name="write_corelnk_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.08"/>
-  <testcase name="write_corelnk_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.082"/>
-  <testcase name="write_corelnk_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.078"/>
-  <testcase name="write_corelnk_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.086"/>
-  <testcase name="write_corelnk_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.09"/>
-  <testcase name="write_corelnk_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.072"/>
-  <testcase name="write_corelnk_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.066"/>
-  <testcase name="write_boolean_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.054"/>
-  <testcase name="write_boolean_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.085"/>
-  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.042"/>
-  <testcase name="write_boolean_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.071"/>
-  <testcase name="write_boolean_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.069"/>
-  <testcase name="write_boolean_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.09"/>
-  <testcase name="write_boolean_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.076"/>
-  <testcase name="write_boolean_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.071"/>
-  <testcase name="write_boolean_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.076"/>
-  <testcase name="write_unsigned_integer_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.082"/>
-  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.046"/>
-  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.043"/>
-  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.047"/>
-  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.037"/>
-  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.083"/>
-  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.042"/>
-  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.058"/>
-  <testcase name="write_unsigned_integer_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.057"/>
-  <testcase name="write_unsigned_integer_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.058"/>
-  <testcase name="write_string_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.073"/>
-  <testcase name="write_unsigned_integer_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.062"/>
-  <testcase name="write_unsigned_integer_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.065"/>
-  <testcase name="write_unsigned_integer_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.059"/>
-  <testcase name="write_unsigned_integer_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.063"/>
-  <testcase name="write_string_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.055"/>
-  <testcase name="write_unsigned_integer_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.062"/>
-  <testcase name="write_string_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.054"/>
-  <testcase name="write_string_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.051"/>
-  <testcase name="write_string_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.054"/>
-  <testcase name="write_string_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.043"/>
-  <testcase name="write_string_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.036"/>
-  <testcase name="write_string_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.028"/>
+  <testcase name="write_time_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.083"/>
+  <testcase name="can_write_string_resource_instance[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.064"/>
+  <testcase name="can_write_string_resource_instance[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.048"/>
+  <testcase name="can_write_string_resource_instance[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.048"/>
+  <testcase name="can_write_string_resource_instance[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.051"/>
+  <testcase name="can_write_string_resource_instance[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.049"/>
+  <testcase name="can_write_string_resource_instance[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.034"/>
+  <testcase name="can_write_string_resource_instance[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.048"/>
+  <testcase name="can_write_string_resource_instance[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.057"/>
+  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.039"/>
+  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.041"/>
+  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.039"/>
+  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.037"/>
+  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.038"/>
+  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.042"/>
+  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.036"/>
+  <testcase name="write_float_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.042"/>
+  <testcase name="write_float_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.049"/>
+  <testcase name="send_writerequest_asynchronously_with_bad_payload_raises_codeexception[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.055"/>
+  <testcase name="write_float_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.049"/>
+  <testcase name="write_float_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.046"/>
+  <testcase name="write_float_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.046"/>
+  <testcase name="write_float_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.076"/>
+  <testcase name="write_float_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.062"/>
+  <testcase name="write_integer_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.041"/>
+  <testcase name="write_integer_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.057"/>
+  <testcase name="write_integer_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.059"/>
+  <testcase name="write_integer_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.066"/>
+  <testcase name="write_float_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.053"/>
+  <testcase name="write_integer_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.048"/>
+  <testcase name="write_corelnk_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.057"/>
+  <testcase name="write_integer_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.072"/>
+  <testcase name="write_integer_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.058"/>
+  <testcase name="write_corelnk_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.063"/>
+  <testcase name="write_corelnk_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.07"/>
+  <testcase name="write_integer_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.058"/>
+  <testcase name="write_corelnk_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.069"/>
+  <testcase name="write_corelnk_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.054"/>
+  <testcase name="write_boolean_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.069"/>
+  <testcase name="write_corelnk_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.061"/>
+  <testcase name="write_corelnk_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.063"/>
+  <testcase name="write_corelnk_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.056"/>
+  <testcase name="write_boolean_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.058"/>
+  <testcase name="write_boolean_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.053"/>
+  <testcase name="write_boolean_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.048"/>
+  <testcase name="write_boolean_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.052"/>
+  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.044"/>
+  <testcase name="write_boolean_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.053"/>
+  <testcase name="write_boolean_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.044"/>
+  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.028"/>
+  <testcase name="write_boolean_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.043"/>
+  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.037"/>
+  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.534"/>
+  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.032"/>
+  <testcase name="write_unsigned_integer_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.033"/>
+  <testcase name="write_unsigned_integer_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.037"/>
+  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.533"/>
+  <testcase name="write_unsigned_integer_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.033"/>
+  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.029"/>
+  <testcase name="send_writerequest_synchronously_with_bad_payload_raises_codeexception[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.033"/>
+  <testcase name="write_unsigned_integer_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.035"/>
+  <testcase name="write_string_resource[UNKNOWN(1542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.033"/>
+  <testcase name="write_string_resource[JSON(11543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.045"/>
+  <testcase name="write_unsigned_integer_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.035"/>
+  <testcase name="write_string_resource[TEXT(0)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.036"/>
+  <testcase name="write_unsigned_integer_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.036"/>
+  <testcase name="write_string_resource[SENML_CBOR(112)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.035"/>
+  <testcase name="write_string_resource[SENML_JSON(110)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.027"/>
+  <testcase name="write_string_resource[UNKNOWN(1543)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.023"/>
+  <testcase name="write_unsigned_integer_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.062"/>
+  <testcase name="write_unsigned_integer_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.043"/>
+  <testcase name="write_string_resource[TLV(11542)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.023"/>
+  <testcase name="write_string_resource[CBOR(60)]" classname="org.eclipse.leshan.integration.tests.write.WriteSingleValueTest" time="0.022"/>
 </testsuite>

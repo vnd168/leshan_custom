@@ -1,3 +1,3 @@
-/home/vietpc/test/leshan/leshan-server-redis/src/test/java/org/eclipse/leshan/server/redis/serialization/RegistrationSerDesTest.java
-/home/vietpc/test/leshan/leshan-server-redis/src/test/java/org/eclipse/leshan/server/redis/serialization/EndpointContextSerDesTest.java
-/home/vietpc/test/leshan/leshan-server-redis/src/test/java/org/eclipse/leshan/server/redis/serialization/SecurityInfoSerDesTest.java
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/test/java/org/eclipse/leshan/server/redis/serialization/EndpointContextSerDesTest.java
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/test/java/org/eclipse/leshan/server/redis/serialization/SecurityInfoSerDesTest.java
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/test/java/org/eclipse/leshan/server/redis/serialization/RegistrationSerDesTest.java

@@ -1,12 +1,12 @@
-#Thu Aug 25 08:41:40 ICT 2022
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisRegistrationStore.java=1661153191356
-configuration*?=2536D3F4D7BC8B2468FC2145354FFDA4DDB3650F
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisLock.java=1661153191356
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/IdentitySerDes.java=1661153191356
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/SecurityInfoSerDes.java=1661153191356
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/JedisLock.java=1661153191356
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisSecurityStore.java=1661153191356
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/SingleInstanceJedisLock.java=1661153191356
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/RegistrationSerDes.java=1661153191356
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/EndpointContextSerDes.java=1661153191356
-/home/vietpc/test/leshan/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/ObservationSerDes.java=1661153191356
+#Thu Sep 08 10:09:17 ICT 2022
+configuration*?=BB831CAB716F54DB8D01DF8C64A847F271215188
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/RegistrationSerDes.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisSecurityStore.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/EndpointContextSerDes.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/ObservationSerDes.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/SingleInstanceJedisLock.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/SecurityInfoSerDes.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisLock.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/serialization/IdentitySerDes.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/JedisLock.java=1661153191356
+/home/vietpc/test/leshan_custom/leshan-server-redis/src/main/java/org/eclipse/leshan/server/redis/RedisRegistrationStore.java=1661153191356

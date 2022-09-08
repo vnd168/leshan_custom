@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1661391678324
+Bnd-LastModified: 1662606536674
 Build-Jdk-Spec: 11
 Bundle-Description: Shared classes between server and client which depen
  ds on CoAP Californium

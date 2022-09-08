@@ -1,11 +1,11 @@
-#Thu Aug 25 08:43:05 ICT 2022
-configuration*?=9863B61F6D25043B6F9AC8728D53B41AE5DB14A8
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/IdentitySection.java=1661153191308
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/LeshanClientDemoCLI.java=1661153191308
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyLocation.java=1661153191308
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/RandomTemperatureSensor.java=1661153191308
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/BinaryAppData.java=1661338264324
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/interactive/InteractiveCommands.java=1661153191308
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyDevice.java=1661153191308
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java=1661337710778
-/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/OscoreSection.java=1661153191308
+#Thu Sep 08 10:10:28 ICT 2022
+configuration*?=E0626D8461ADA650B4B45E73B1CD3DFFBA2125EB
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java=1661337710778
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/RandomTemperatureSensor.java=1661153191308
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/OscoreSection.java=1661153191308
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyDevice.java=1661153191308
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/LeshanClientDemoCLI.java=1661153191308
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/interactive/InteractiveCommands.java=1661153191308
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/IdentitySection.java=1661153191308
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/BinaryAppData.java=1662606150536
+/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyLocation.java=1661153191308

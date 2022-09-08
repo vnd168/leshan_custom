@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/RandomTemperatureSensor.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/RandomTemperatureSensor.java">
 </file>
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/LeshanClientDemoCLI.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/LeshanClientDemoCLI.java">
 </file>
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/interactive/InteractiveCommands.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/interactive/InteractiveCommands.java">
 </file>
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/IdentitySection.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/IdentitySection.java">
 </file>
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/OscoreSection.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/cli/OscoreSection.java">
 </file>
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyDevice.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyDevice.java">
 </file>
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/BinaryAppData.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/BinaryAppData.java">
 </file>
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyLocation.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/MyLocation.java">
 </file>
-<file name="/home/vietpc/test/leshan/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java">
+<file name="/home/vietpc/test/leshan_custom/leshan-client-demo/src/main/java/org/eclipse/leshan/client/demo/LeshanClientDemo.java">
 </file>
 </checkstyle>
